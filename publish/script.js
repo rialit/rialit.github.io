@@ -1127,11 +1127,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "imgUrl": () => (/* binding */ imgUrl),
 /* harmony export */   "router": () => (/* binding */ router)
 /* harmony export */ });
+// export const baseUrl = "/D:/project/rialit.github.io/index.html"
 var baseUrl = "";
 var imgUrl = "/web/img/tovar/index.html";
 var router = {
   main: baseUrl,
-  works: baseUrl + "works"
+  works: baseUrl + "/works/"
 };
 
 /***/ }),
@@ -1498,6 +1499,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var WorkPage = function WorkPage(props) {
+  console.log(props);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: ""
   }, "Works");
