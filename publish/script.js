@@ -1127,7 +1127,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "imgUrl": () => (/* binding */ imgUrl),
 /* harmony export */   "router": () => (/* binding */ router)
 /* harmony export */ });
-var baseUrl = "/D:/project/rialit.github.io/index.html";
+var baseUrl = "";
 var imgUrl = "/web/img/tovar/index.html";
 var router = {
   main: baseUrl,
